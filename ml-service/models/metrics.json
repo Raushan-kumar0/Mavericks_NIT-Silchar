@@ -1,0 +1,103 @@
+{
+  "split": {
+    "train_patients": 48,
+    "val_patients": 8,
+    "test_patients": 24
+  },
+  "spike_definition": "glucose currently < 180 mg/dL and crosses >= 180 mg/dL within the next 120 min",
+  "ablation": {
+    "CGM only": {
+      "auroc": 0.9449,
+      "auprc": 0.9012
+    },
+    "CGM + wearables": {
+      "auroc": 0.9433,
+      "auprc": 0.9016
+    },
+    "CGM + EHR": {
+      "auroc": 0.9469,
+      "auprc": 0.905
+    },
+    "EHR + wearables (no CGM)": {
+      "auroc": 0.9352,
+      "auprc": 0.8903
+    },
+    "Full fusion (EHR + all wearables)": {
+      "auroc": 0.9501,
+      "auprc": 0.9119
+    }
+  },
+  "prevalence": 0.3493,
+  "classifier": {
+    "threshold": 0.44,
+    "high_risk_threshold": 0.7,
+    "auroc": 0.9503,
+    "auprc": 0.9116,
+    "sensitivity": 0.7798,
+    "precision": 0.8403,
+    "specificity": 0.9205,
+    "brier": 0.091
+  },
+  "events": {
+    "spike_events": 916,
+    "events_caught_pct": 91.8,
+    "median_lead_time_min": 100.0,
+    "caught_30min_ahead_pct": 85.6,
+    "false_alarms_per_patient_day": 2.15
+  },
+  "forecast": {
+    "30min": {
+      "mae": 6.3,
+      "rmse": 9.26,
+      "persistence_rmse": 16.18,
+      "band_80_coverage_pct": 75.7
+    },
+    "60min": {
+      "mae": 9.56,
+      "rmse": 15.36,
+      "persistence_rmse": 27.56,
+      "band_80_coverage_pct": 73.5
+    },
+    "90min": {
+      "mae": 12.3,
+      "rmse": 19.76,
+      "persistence_rmse": 36.17,
+      "band_80_coverage_pct": 71.1
+    },
+    "120min": {
+      "mae": 14.22,
+      "rmse": 22.42,
+      "persistence_rmse": 42.1,
+      "band_80_coverage_pct": 70.0
+    }
+  },
+  "top_features_gain": {
+    "hour_sin": 17.33,
+    "steps60": 13.46,
+    "hba1c": 10.15,
+    "hour_cos": 8.99,
+    "carbs_log60": 7.18,
+    "hr_dev30": 3.87,
+    "g": 3.78,
+    "g_lag5": 2.56,
+    "carbs_log120": 2.18,
+    "g_std180": 2.12,
+    "mins_since_log": 2.09,
+    "night_rhr": 1.88,
+    "g_max180": 1.66,
+    "night_hrv": 1.61,
+    "sleep_hours": 1.61
+  },
+  "twin_calibration": {
+    "patients": 24,
+    "protocol": "calibrate on 5 days of CGM + meal logs, evaluate on the next 2 days",
+    "holdout_postmeal_rmse_ehr_prior_mgdl": 16.4,
+    "holdout_postmeal_rmse_calibrated_mgdl": 16.8,
+    "patients_improved_pct": 66.7,
+    "corr_sensitivity_prior_vs_truth": 0.524,
+    "corr_sensitivity_calibrated_vs_truth": 0.629,
+    "corr_basal_prior_vs_truth": 0.842,
+    "corr_basal_calibrated_vs_truth": 0.882
+  },
+  "train_seconds": 129.4
+}

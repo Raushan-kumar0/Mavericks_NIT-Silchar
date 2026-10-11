@@ -1,0 +1,6527 @@
+[
+ {
+  "resourceType": "Patient",
+  "id": "GT-001",
+  "name": "Ishaan Naidu",
+  "synthetic": true,
+  "gender": "male",
+  "age": 41,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 172.5,
+   "weight_kg": 89.5,
+   "bmi": 30.1,
+   "waist_cm": 90.6,
+   "systolic_bp": 135,
+   "diastolic_bp": 79,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 134,
+   "ppbg_2h_mgdl": 186,
+   "egfr_ml_min": 96,
+   "ldl_mgdl": 133,
+   "hdl_mgdl": 31,
+   "triglycerides_mgdl": 173,
+   "urine_acr_mg_g": 15,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-002",
+  "name": "Meera Naidu",
+  "synthetic": true,
+  "gender": "female",
+  "age": 64,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.8,
+   "weight_kg": 72.0,
+   "bmi": 30.8,
+   "waist_cm": 78.5,
+   "systolic_bp": 119,
+   "diastolic_bp": 97,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 4
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.4,
+   "fasting_glucose_mgdl": 108,
+   "ppbg_2h_mgdl": 153,
+   "egfr_ml_min": 76,
+   "ldl_mgdl": 134,
+   "hdl_mgdl": 34,
+   "triglycerides_mgdl": 78,
+   "urine_acr_mg_g": 17,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.9
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-003",
+  "name": "Arjun Nair",
+  "synthetic": true,
+  "gender": "male",
+  "age": 67,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 151.8,
+   "weight_kg": 49.5,
+   "bmi": 21.5,
+   "waist_cm": 84.5,
+   "systolic_bp": 115,
+   "diastolic_bp": 71,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 10
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.5,
+   "fasting_glucose_mgdl": 133,
+   "ppbg_2h_mgdl": 185,
+   "egfr_ml_min": 55,
+   "ldl_mgdl": 153,
+   "hdl_mgdl": 29,
+   "triglycerides_mgdl": 180,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-004",
+  "name": "Geeta Khan",
+  "synthetic": true,
+  "gender": "female",
+  "age": 47,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 156.7,
+   "weight_kg": 64.6,
+   "bmi": 26.3,
+   "waist_cm": 72.7,
+   "systolic_bp": 145,
+   "diastolic_bp": 101,
+   "resting_hr": 85
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 4
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 7
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 149,
+   "ppbg_2h_mgdl": 201,
+   "egfr_ml_min": 75,
+   "ldl_mgdl": 115,
+   "hdl_mgdl": 55,
+   "triglycerides_mgdl": 135,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-005",
+  "name": "Geeta Singh",
+  "synthetic": true,
+  "gender": "female",
+  "age": 50,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 162.0,
+   "weight_kg": 77.3,
+   "bmi": 29.4,
+   "waist_cm": 80.1,
+   "systolic_bp": 126,
+   "diastolic_bp": 76,
+   "resting_hr": 71
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.9,
+   "fasting_glucose_mgdl": 133,
+   "ppbg_2h_mgdl": 187,
+   "egfr_ml_min": 99,
+   "ldl_mgdl": 141,
+   "hdl_mgdl": 44,
+   "triglycerides_mgdl": 140,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-006",
+  "name": "Manoj Gupta",
+  "synthetic": true,
+  "gender": "male",
+  "age": 69,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 170.6,
+   "weight_kg": 76.4,
+   "bmi": 26.2,
+   "waist_cm": 89.3,
+   "systolic_bp": 155,
+   "diastolic_bp": 90,
+   "resting_hr": 75
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 7
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.7,
+   "fasting_glucose_mgdl": 142,
+   "ppbg_2h_mgdl": 198,
+   "egfr_ml_min": 78,
+   "ldl_mgdl": 120,
+   "hdl_mgdl": 47,
+   "triglycerides_mgdl": 177,
+   "urine_acr_mg_g": 213,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-007",
+  "name": "Tanuja Kulkarni",
+  "synthetic": true,
+  "gender": "female",
+  "age": 49,
+  "address": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 151.7,
+   "weight_kg": 64.9,
+   "bmi": 28.2,
+   "waist_cm": 88.6,
+   "systolic_bp": 117,
+   "diastolic_bp": 95,
+   "resting_hr": 87
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 9
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 121,
+   "ppbg_2h_mgdl": 184,
+   "egfr_ml_min": 104,
+   "ldl_mgdl": 91,
+   "hdl_mgdl": 46,
+   "triglycerides_mgdl": 204,
+   "urine_acr_mg_g": 98,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-008",
+  "name": "Sunita Patel",
+  "synthetic": true,
+  "gender": "female",
+  "age": 60,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 159.7,
+   "weight_kg": 56.5,
+   "bmi": 22.2,
+   "waist_cm": 74.7,
+   "systolic_bp": 102,
+   "diastolic_bp": 86,
+   "resting_hr": 58
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 8
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 142,
+   "ppbg_2h_mgdl": 203,
+   "egfr_ml_min": 80,
+   "ldl_mgdl": 163,
+   "hdl_mgdl": 44,
+   "triglycerides_mgdl": 203,
+   "urine_acr_mg_g": 13,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.9
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-009",
+  "name": "Anjali Menon",
+  "synthetic": true,
+  "gender": "female",
+  "age": 75,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 158.4,
+   "weight_kg": 70.6,
+   "bmi": 28.1,
+   "waist_cm": 81.3,
+   "systolic_bp": 122,
+   "diastolic_bp": 61,
+   "resting_hr": 56
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 2
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.7,
+   "fasting_glucose_mgdl": 139,
+   "ppbg_2h_mgdl": 199,
+   "egfr_ml_min": 85,
+   "ldl_mgdl": 88,
+   "hdl_mgdl": 45,
+   "triglycerides_mgdl": 129,
+   "urine_acr_mg_g": 22,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-010",
+  "name": "Diya Menon",
+  "synthetic": true,
+  "gender": "female",
+  "age": 43,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.6,
+   "weight_kg": 65.2,
+   "bmi": 28.0,
+   "waist_cm": 81.4,
+   "systolic_bp": 109,
+   "diastolic_bp": 73,
+   "resting_hr": 75
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 4
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.9,
+   "fasting_glucose_mgdl": 134,
+   "ppbg_2h_mgdl": 197,
+   "egfr_ml_min": 95,
+   "ldl_mgdl": 51,
+   "hdl_mgdl": 49,
+   "triglycerides_mgdl": 185,
+   "urine_acr_mg_g": 46,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.9
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-011",
+  "name": "Biswajit Gupta",
+  "synthetic": true,
+  "gender": "male",
+  "age": 64,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 168.6,
+   "weight_kg": 84.4,
+   "bmi": 29.7,
+   "waist_cm": 85.5,
+   "systolic_bp": 117,
+   "diastolic_bp": 89,
+   "resting_hr": 77
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 149,
+   "ppbg_2h_mgdl": 256,
+   "egfr_ml_min": 91,
+   "ldl_mgdl": 102,
+   "hdl_mgdl": 25,
+   "triglycerides_mgdl": 210,
+   "urine_acr_mg_g": 21,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-012",
+  "name": "Mary Banerjee",
+  "synthetic": true,
+  "gender": "female",
+  "age": 51,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 146.6,
+   "weight_kg": 53.0,
+   "bmi": 24.7,
+   "waist_cm": 80.3,
+   "systolic_bp": 135,
+   "diastolic_bp": 95,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 23
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 7
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 8.2,
+   "fasting_glucose_mgdl": 139,
+   "ppbg_2h_mgdl": 187,
+   "egfr_ml_min": 80,
+   "ldl_mgdl": 151,
+   "hdl_mgdl": 47,
+   "triglycerides_mgdl": 101,
+   "urine_acr_mg_g": 5,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.1
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-013",
+  "name": "Debashish Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 49,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 164.6,
+   "weight_kg": 59.2,
+   "bmi": 21.8,
+   "waist_cm": 70.7,
+   "systolic_bp": 118,
+   "diastolic_bp": 85,
+   "resting_hr": 70
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.0,
+   "fasting_glucose_mgdl": 101,
+   "ppbg_2h_mgdl": 177,
+   "egfr_ml_min": 95,
+   "ldl_mgdl": 94,
+   "hdl_mgdl": 44,
+   "triglycerides_mgdl": 206,
+   "urine_acr_mg_g": 14,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.9
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-014",
+  "name": "Harpreet Reddy",
+  "synthetic": true,
+  "gender": "male",
+  "age": 46,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 171.0,
+   "weight_kg": 83.1,
+   "bmi": 28.4,
+   "waist_cm": 86.1,
+   "systolic_bp": 135,
+   "diastolic_bp": 86,
+   "resting_hr": 70
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 6
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.0,
+   "fasting_glucose_mgdl": 94,
+   "ppbg_2h_mgdl": 147,
+   "egfr_ml_min": 70,
+   "ldl_mgdl": 50,
+   "hdl_mgdl": 33,
+   "triglycerides_mgdl": 269,
+   "urine_acr_mg_g": 34,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 5.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-015",
+  "name": "Ramesh Patel",
+  "synthetic": true,
+  "gender": "male",
+  "age": 46,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 162.5,
+   "weight_kg": 55.8,
+   "bmi": 21.1,
+   "waist_cm": 75.3,
+   "systolic_bp": 123,
+   "diastolic_bp": 83,
+   "resting_hr": 75
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 137,
+   "ppbg_2h_mgdl": 177,
+   "egfr_ml_min": 78,
+   "ldl_mgdl": 131,
+   "hdl_mgdl": 48,
+   "triglycerides_mgdl": 104,
+   "urine_acr_mg_g": 71,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.9
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-016",
+  "name": "Biswajit Verma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 78,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 165.5,
+   "weight_kg": 72.8,
+   "bmi": 26.6,
+   "waist_cm": 82.8,
+   "systolic_bp": 122,
+   "diastolic_bp": 80,
+   "resting_hr": 71
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 11
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 145,
+   "ppbg_2h_mgdl": 189,
+   "egfr_ml_min": 78,
+   "ldl_mgdl": 139,
+   "hdl_mgdl": 38,
+   "triglycerides_mgdl": 168,
+   "urine_acr_mg_g": 3,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-017",
+  "name": "Reyansh Dey",
+  "synthetic": true,
+  "gender": "male",
+  "age": 46,
+  "address": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 157.5,
+   "weight_kg": 73.3,
+   "bmi": 29.5,
+   "waist_cm": 90.4,
+   "systolic_bp": 143,
+   "diastolic_bp": 75,
+   "resting_hr": 69
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.7,
+   "fasting_glucose_mgdl": 150,
+   "ppbg_2h_mgdl": 197,
+   "egfr_ml_min": 83,
+   "ldl_mgdl": 114,
+   "hdl_mgdl": 51,
+   "triglycerides_mgdl": 186,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-018",
+  "name": "Reyansh Menon",
+  "synthetic": true,
+  "gender": "male",
+  "age": 39,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 165.6,
+   "weight_kg": 71.9,
+   "bmi": 26.2,
+   "waist_cm": 84.0,
+   "systolic_bp": 152,
+   "diastolic_bp": 83,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 3
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 133,
+   "ppbg_2h_mgdl": 182,
+   "egfr_ml_min": 116,
+   "ldl_mgdl": 100,
+   "hdl_mgdl": 49,
+   "triglycerides_mgdl": 115,
+   "urine_acr_mg_g": 87,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-019",
+  "name": "Rohan Gupta",
+  "synthetic": true,
+  "gender": "male",
+  "age": 47,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.2,
+   "weight_kg": 92.2,
+   "bmi": 34.6,
+   "waist_cm": 89.4,
+   "systolic_bp": 144,
+   "diastolic_bp": 87,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.9,
+   "fasting_glucose_mgdl": 113,
+   "ppbg_2h_mgdl": 187,
+   "egfr_ml_min": 108,
+   "ldl_mgdl": 157,
+   "hdl_mgdl": 44,
+   "triglycerides_mgdl": 187,
+   "urine_acr_mg_g": 22,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-020",
+  "name": "Vivaan Das",
+  "synthetic": true,
+  "gender": "male",
+  "age": 60,
+  "address": {
+   "city": "Kochi",
+   "state": "Kerala",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.6,
+   "weight_kg": 60.7,
+   "bmi": 22.7,
+   "waist_cm": 80.1,
+   "systolic_bp": 131,
+   "diastolic_bp": 83,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 125,
+   "ppbg_2h_mgdl": 191,
+   "egfr_ml_min": 56,
+   "ldl_mgdl": 125,
+   "hdl_mgdl": 31,
+   "triglycerides_mgdl": 177,
+   "urine_acr_mg_g": 14,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-021",
+  "name": "Riya Chakraborty",
+  "synthetic": true,
+  "gender": "female",
+  "age": 59,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 156.4,
+   "weight_kg": 60.8,
+   "bmi": 24.9,
+   "waist_cm": 80.0,
+   "systolic_bp": 142,
+   "diastolic_bp": 96,
+   "resting_hr": 76
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.1,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 179,
+   "egfr_ml_min": 83,
+   "ldl_mgdl": 98,
+   "hdl_mgdl": 32,
+   "triglycerides_mgdl": 179,
+   "urine_acr_mg_g": 4,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-022",
+  "name": "Joseph Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 54,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 155.3,
+   "weight_kg": 45.8,
+   "bmi": 19.0,
+   "waist_cm": 70.0,
+   "systolic_bp": 116,
+   "diastolic_bp": 79,
+   "resting_hr": 87
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 3
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.7,
+   "fasting_glucose_mgdl": 150,
+   "ppbg_2h_mgdl": 212,
+   "egfr_ml_min": 90,
+   "ldl_mgdl": 110,
+   "hdl_mgdl": 51,
+   "triglycerides_mgdl": 205,
+   "urine_acr_mg_g": 19,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 9.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-023",
+  "name": "Saanvi Singh",
+  "synthetic": true,
+  "gender": "female",
+  "age": 54,
+  "address": {
+   "city": "Kochi",
+   "state": "Kerala",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.2,
+   "weight_kg": 57.5,
+   "bmi": 24.8,
+   "waist_cm": 77.9,
+   "systolic_bp": 144,
+   "diastolic_bp": 83,
+   "resting_hr": 79
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 4
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 3
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 6
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 132,
+   "ppbg_2h_mgdl": 165,
+   "egfr_ml_min": 79,
+   "ldl_mgdl": 121,
+   "hdl_mgdl": 42,
+   "triglycerides_mgdl": 160,
+   "urine_acr_mg_g": 91,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-024",
+  "name": "Mary Chakraborty",
+  "synthetic": true,
+  "gender": "female",
+  "age": 56,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 165.7,
+   "weight_kg": 72.9,
+   "bmi": 26.6,
+   "waist_cm": 85.1,
+   "systolic_bp": 133,
+   "diastolic_bp": 92,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 2
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.3,
+   "fasting_glucose_mgdl": 111,
+   "ppbg_2h_mgdl": 149,
+   "egfr_ml_min": 65,
+   "ldl_mgdl": 149,
+   "hdl_mgdl": 55,
+   "triglycerides_mgdl": 173,
+   "urine_acr_mg_g": 4,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-025",
+  "name": "Nandini Chakraborty",
+  "synthetic": true,
+  "gender": "female",
+  "age": 62,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.1,
+   "weight_kg": 63.6,
+   "bmi": 27.5,
+   "waist_cm": 84.3,
+   "systolic_bp": 140,
+   "diastolic_bp": 79,
+   "resting_hr": 78
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 156,
+   "ppbg_2h_mgdl": 227,
+   "egfr_ml_min": 84,
+   "ldl_mgdl": 114,
+   "hdl_mgdl": 56,
+   "triglycerides_mgdl": 66,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-026",
+  "name": "Debashish Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 49,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 170.3,
+   "weight_kg": 71.8,
+   "bmi": 24.8,
+   "waist_cm": 79.5,
+   "systolic_bp": 140,
+   "diastolic_bp": 85,
+   "resting_hr": 83
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "1 mg OD",
+    "since_years": 1
+   },
+   {
+    "name": "Insulin Glargine (basal)",
+    "dose": "12 U at bedtime",
+    "since_years": 2
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 6
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.5,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 202,
+   "egfr_ml_min": 92,
+   "ldl_mgdl": 96,
+   "hdl_mgdl": 37,
+   "triglycerides_mgdl": 201,
+   "urine_acr_mg_g": 43,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-027",
+  "name": "Kavya Naidu",
+  "synthetic": true,
+  "gender": "female",
+  "age": 54,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 159.5,
+   "weight_kg": 72.4,
+   "bmi": 28.5,
+   "waist_cm": 86.8,
+   "systolic_bp": 131,
+   "diastolic_bp": 91,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.4,
+   "fasting_glucose_mgdl": 120,
+   "ppbg_2h_mgdl": 168,
+   "egfr_ml_min": 81,
+   "ldl_mgdl": 52,
+   "hdl_mgdl": 34,
+   "triglycerides_mgdl": 262,
+   "urine_acr_mg_g": 13,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.1
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-028",
+  "name": "Rohan Gupta",
+  "synthetic": true,
+  "gender": "male",
+  "age": 70,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 173.2,
+   "weight_kg": 64.4,
+   "bmi": 21.5,
+   "waist_cm": 74.8,
+   "systolic_bp": 145,
+   "diastolic_bp": 97,
+   "resting_hr": 74
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 14
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 3
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "2 mg OD",
+    "since_years": 11
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.9,
+   "fasting_glucose_mgdl": 155,
+   "ppbg_2h_mgdl": 222,
+   "egfr_ml_min": 68,
+   "ldl_mgdl": 138,
+   "hdl_mgdl": 56,
+   "triglycerides_mgdl": 187,
+   "urine_acr_mg_g": 25,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-029",
+  "name": "Kavya Patel",
+  "synthetic": true,
+  "gender": "female",
+  "age": 47,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 154.1,
+   "weight_kg": 62.9,
+   "bmi": 26.5,
+   "waist_cm": 85.2,
+   "systolic_bp": 111,
+   "diastolic_bp": 81,
+   "resting_hr": 88
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "1 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 153,
+   "ppbg_2h_mgdl": 173,
+   "egfr_ml_min": 96,
+   "ldl_mgdl": 118,
+   "hdl_mgdl": 41,
+   "triglycerides_mgdl": 100,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-030",
+  "name": "Bhavana Banerjee",
+  "synthetic": true,
+  "gender": "female",
+  "age": 49,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 147.3,
+   "weight_kg": 59.3,
+   "bmi": 27.3,
+   "waist_cm": 78.7,
+   "systolic_bp": 141,
+   "diastolic_bp": 89,
+   "resting_hr": 86
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 4
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 4
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.7,
+   "fasting_glucose_mgdl": 124,
+   "ppbg_2h_mgdl": 149,
+   "egfr_ml_min": 87,
+   "ldl_mgdl": 171,
+   "hdl_mgdl": 33,
+   "triglycerides_mgdl": 147,
+   "urine_acr_mg_g": 10,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-031",
+  "name": "Priya Dey",
+  "synthetic": true,
+  "gender": "female",
+  "age": 65,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 150.0,
+   "weight_kg": 64.2,
+   "bmi": 28.5,
+   "waist_cm": 81.2,
+   "systolic_bp": 125,
+   "diastolic_bp": 88,
+   "resting_hr": 69
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 11
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 6
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 6.8,
+   "fasting_glucose_mgdl": 123,
+   "ppbg_2h_mgdl": 188,
+   "egfr_ml_min": 57,
+   "ldl_mgdl": 108,
+   "hdl_mgdl": 28,
+   "triglycerides_mgdl": 180,
+   "urine_acr_mg_g": 13,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-032",
+  "name": "Krishna Rao",
+  "synthetic": true,
+  "gender": "male",
+  "age": 67,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 160.1,
+   "weight_kg": 57.1,
+   "bmi": 22.3,
+   "waist_cm": 73.7,
+   "systolic_bp": 132,
+   "diastolic_bp": 86,
+   "resting_hr": 74
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 212,
+   "egfr_ml_min": 78,
+   "ldl_mgdl": 126,
+   "hdl_mgdl": 40,
+   "triglycerides_mgdl": 153,
+   "urine_acr_mg_g": 9,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-033",
+  "name": "Meera Rao",
+  "synthetic": true,
+  "gender": "female",
+  "age": 69,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 164.0,
+   "weight_kg": 70.6,
+   "bmi": 26.3,
+   "waist_cm": 79.9,
+   "systolic_bp": 115,
+   "diastolic_bp": 82,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 25
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 4
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.4,
+   "fasting_glucose_mgdl": 149,
+   "ppbg_2h_mgdl": 238,
+   "egfr_ml_min": 70,
+   "ldl_mgdl": 150,
+   "hdl_mgdl": 47,
+   "triglycerides_mgdl": 120,
+   "urine_acr_mg_g": 59,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-034",
+  "name": "Aarav Naidu",
+  "synthetic": true,
+  "gender": "male",
+  "age": 55,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 176.2,
+   "weight_kg": 82.8,
+   "bmi": 26.7,
+   "waist_cm": 95.8,
+   "systolic_bp": 135,
+   "diastolic_bp": 92,
+   "resting_hr": 64
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 3
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 185,
+   "egfr_ml_min": 89,
+   "ldl_mgdl": 149,
+   "hdl_mgdl": 45,
+   "triglycerides_mgdl": 207,
+   "urine_acr_mg_g": 56,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-035",
+  "name": "Biswajit Nair",
+  "synthetic": true,
+  "gender": "male",
+  "age": 49,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 177.3,
+   "weight_kg": 93.7,
+   "bmi": 29.8,
+   "waist_cm": 85.7,
+   "systolic_bp": 144,
+   "diastolic_bp": 97,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 5
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "2 mg OD",
+    "since_years": 4
+   },
+   {
+    "name": "Insulin Glargine (basal)",
+    "dose": "14 U at bedtime",
+    "since_years": 1
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.3,
+   "fasting_glucose_mgdl": 142,
+   "ppbg_2h_mgdl": 207,
+   "egfr_ml_min": 99,
+   "ldl_mgdl": 123,
+   "hdl_mgdl": 41,
+   "triglycerides_mgdl": 150,
+   "urine_acr_mg_g": 27,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-036",
+  "name": "Venkat Menon",
+  "synthetic": true,
+  "gender": "male",
+  "age": 52,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 170.6,
+   "weight_kg": 82.8,
+   "bmi": 28.4,
+   "waist_cm": 88.7,
+   "systolic_bp": 132,
+   "diastolic_bp": 88,
+   "resting_hr": 77
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "eggetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.1,
+   "fasting_glucose_mgdl": 143,
+   "ppbg_2h_mgdl": 196,
+   "egfr_ml_min": 64,
+   "ldl_mgdl": 107,
+   "hdl_mgdl": 39,
+   "triglycerides_mgdl": 135,
+   "urine_acr_mg_g": 32,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-037",
+  "name": "Ishaan Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 73,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 161.1,
+   "weight_kg": 76.9,
+   "bmi": 29.6,
+   "waist_cm": 83.9,
+   "systolic_bp": 139,
+   "diastolic_bp": 95,
+   "resting_hr": 78
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 16
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 4
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "1 mg OD",
+    "since_years": 4
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 8.5,
+   "fasting_glucose_mgdl": 143,
+   "ppbg_2h_mgdl": 215,
+   "egfr_ml_min": 86,
+   "ldl_mgdl": 110,
+   "hdl_mgdl": 43,
+   "triglycerides_mgdl": 138,
+   "urine_acr_mg_g": 62,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-038",
+  "name": "Pooja Dey",
+  "synthetic": true,
+  "gender": "female",
+  "age": 63,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 154.0,
+   "weight_kg": 65.3,
+   "bmi": 27.5,
+   "waist_cm": 84.3,
+   "systolic_bp": 135,
+   "diastolic_bp": 101,
+   "resting_hr": 75
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.3,
+   "fasting_glucose_mgdl": 142,
+   "ppbg_2h_mgdl": 193,
+   "egfr_ml_min": 88,
+   "ldl_mgdl": 124,
+   "hdl_mgdl": 50,
+   "triglycerides_mgdl": 140,
+   "urine_acr_mg_g": 7,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.9
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-039",
+  "name": "Mary Khan",
+  "synthetic": true,
+  "gender": "female",
+  "age": 54,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 143.8,
+   "weight_kg": 50.7,
+   "bmi": 24.5,
+   "waist_cm": 78.6,
+   "systolic_bp": 137,
+   "diastolic_bp": 81,
+   "resting_hr": 74
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 7
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 144,
+   "ppbg_2h_mgdl": 188,
+   "egfr_ml_min": 73,
+   "ldl_mgdl": 122,
+   "hdl_mgdl": 42,
+   "triglycerides_mgdl": 226,
+   "urine_acr_mg_g": 8,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 9.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-040",
+  "name": "Sai Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 64,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.6,
+   "weight_kg": 77.3,
+   "bmi": 28.9,
+   "waist_cm": 83.6,
+   "systolic_bp": 131,
+   "diastolic_bp": 81,
+   "resting_hr": 83
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 2
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.3,
+   "fasting_glucose_mgdl": 120,
+   "ppbg_2h_mgdl": 181,
+   "egfr_ml_min": 65,
+   "ldl_mgdl": 159,
+   "hdl_mgdl": 60,
+   "triglycerides_mgdl": 88,
+   "urine_acr_mg_g": 5,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.9
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 5.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-041",
+  "name": "Lakshmi Menon",
+  "synthetic": true,
+  "gender": "female",
+  "age": 70,
+  "address": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 154.1,
+   "weight_kg": 61.0,
+   "bmi": 25.7,
+   "waist_cm": 82.6,
+   "systolic_bp": 149,
+   "diastolic_bp": 90,
+   "resting_hr": 74
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 210,
+   "egfr_ml_min": 77,
+   "ldl_mgdl": 116,
+   "hdl_mgdl": 36,
+   "triglycerides_mgdl": 179,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-042",
+  "name": "Priya Iyer",
+  "synthetic": true,
+  "gender": "female",
+  "age": 57,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.4,
+   "weight_kg": 79.0,
+   "bmi": 34.0,
+   "waist_cm": 86.3,
+   "systolic_bp": 133,
+   "diastolic_bp": 70,
+   "resting_hr": 76
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   }
+  ],
+  "medications": [
+   {
+    "name": "Glimepiride",
+    "dose": "2 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 144,
+   "ppbg_2h_mgdl": 238,
+   "egfr_ml_min": 91,
+   "ldl_mgdl": 150,
+   "hdl_mgdl": 41,
+   "triglycerides_mgdl": 231,
+   "urine_acr_mg_g": 113,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-043",
+  "name": "Tanuja Banerjee",
+  "synthetic": true,
+  "gender": "female",
+  "age": 48,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 161.4,
+   "weight_kg": 67.4,
+   "bmi": 25.8,
+   "waist_cm": 72.1,
+   "systolic_bp": 136,
+   "diastolic_bp": 100,
+   "resting_hr": 81
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "2 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 135,
+   "ppbg_2h_mgdl": 194,
+   "egfr_ml_min": 86,
+   "ldl_mgdl": 106,
+   "hdl_mgdl": 28,
+   "triglycerides_mgdl": 205,
+   "urine_acr_mg_g": 23,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.5
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-044",
+  "name": "Manoj Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 53,
+  "address": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 166.8,
+   "weight_kg": 57.0,
+   "bmi": 20.5,
+   "waist_cm": 79.5,
+   "systolic_bp": 139,
+   "diastolic_bp": 84,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "1 mg OD",
+    "since_years": 5
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 146,
+   "ppbg_2h_mgdl": 199,
+   "egfr_ml_min": 86,
+   "ldl_mgdl": 128,
+   "hdl_mgdl": 53,
+   "triglycerides_mgdl": 109,
+   "urine_acr_mg_g": 10,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-045",
+  "name": "Simran Joshi",
+  "synthetic": true,
+  "gender": "female",
+  "age": 43,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 157.5,
+   "weight_kg": 77.6,
+   "bmi": 31.3,
+   "waist_cm": 85.2,
+   "systolic_bp": 122,
+   "diastolic_bp": 78,
+   "resting_hr": 69
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.1,
+   "fasting_glucose_mgdl": 96,
+   "ppbg_2h_mgdl": 159,
+   "egfr_ml_min": 94,
+   "ldl_mgdl": 101,
+   "hdl_mgdl": 40,
+   "triglycerides_mgdl": 165,
+   "urine_acr_mg_g": 14,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 5.9
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-046",
+  "name": "Farhan Naidu",
+  "synthetic": true,
+  "gender": "male",
+  "age": 45,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 174.7,
+   "weight_kg": 84.3,
+   "bmi": 27.6,
+   "waist_cm": 87.8,
+   "systolic_bp": 129,
+   "diastolic_bp": 82,
+   "resting_hr": 77
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.5,
+   "fasting_glucose_mgdl": 136,
+   "ppbg_2h_mgdl": 226,
+   "egfr_ml_min": 93,
+   "ldl_mgdl": 125,
+   "hdl_mgdl": 58,
+   "triglycerides_mgdl": 149,
+   "urine_acr_mg_g": 9,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-047",
+  "name": "Nandini Naidu",
+  "synthetic": true,
+  "gender": "female",
+  "age": 42,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 154.5,
+   "weight_kg": 60.0,
+   "bmi": 25.1,
+   "waist_cm": 84.7,
+   "systolic_bp": 151,
+   "diastolic_bp": 99,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 6.5,
+   "fasting_glucose_mgdl": 106,
+   "ppbg_2h_mgdl": 151,
+   "egfr_ml_min": 72,
+   "ldl_mgdl": 177,
+   "hdl_mgdl": 38,
+   "triglycerides_mgdl": 122,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-048",
+  "name": "Kabir Reddy",
+  "synthetic": true,
+  "gender": "male",
+  "age": 37,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 164.4,
+   "weight_kg": 65.4,
+   "bmi": 24.2,
+   "waist_cm": 77.0,
+   "systolic_bp": 142,
+   "diastolic_bp": 78,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 7
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 7
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 7
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.6,
+   "fasting_glucose_mgdl": 138,
+   "ppbg_2h_mgdl": 179,
+   "egfr_ml_min": 100,
+   "ldl_mgdl": 143,
+   "hdl_mgdl": 53,
+   "triglycerides_mgdl": 162,
+   "urine_acr_mg_g": 7,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.1
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-049",
+  "name": "Tanuja Chakraborty",
+  "synthetic": true,
+  "gender": "female",
+  "age": 56,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 151.3,
+   "weight_kg": 55.1,
+   "bmi": 24.0,
+   "waist_cm": 81.4,
+   "systolic_bp": 143,
+   "diastolic_bp": 90,
+   "resting_hr": 78
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 132,
+   "ppbg_2h_mgdl": 197,
+   "egfr_ml_min": 108,
+   "ldl_mgdl": 119,
+   "hdl_mgdl": 40,
+   "triglycerides_mgdl": 166,
+   "urine_acr_mg_g": 4,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-050",
+  "name": "Sunita Kulkarni",
+  "synthetic": true,
+  "gender": "female",
+  "age": 63,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 152.4,
+   "weight_kg": 44.1,
+   "bmi": 19.0,
+   "waist_cm": 70.8,
+   "systolic_bp": 144,
+   "diastolic_bp": 86,
+   "resting_hr": 79
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 10
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Insulin Glargine (basal)",
+    "dose": "24 U at bedtime",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 7
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 8.9,
+   "fasting_glucose_mgdl": 151,
+   "ppbg_2h_mgdl": 205,
+   "egfr_ml_min": 75,
+   "ldl_mgdl": 90,
+   "hdl_mgdl": 37,
+   "triglycerides_mgdl": 111,
+   "urine_acr_mg_g": 15,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 9.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-051",
+  "name": "Aarav Chakraborty",
+  "synthetic": true,
+  "gender": "male",
+  "age": 55,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 160.1,
+   "weight_kg": 66.4,
+   "bmi": 25.9,
+   "waist_cm": 84.0,
+   "systolic_bp": 108,
+   "diastolic_bp": 84,
+   "resting_hr": 59
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 3
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 131,
+   "ppbg_2h_mgdl": 156,
+   "egfr_ml_min": 86,
+   "ldl_mgdl": 96,
+   "hdl_mgdl": 52,
+   "triglycerides_mgdl": 219,
+   "urine_acr_mg_g": 57,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.5
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-052",
+  "name": "Saanvi Verma",
+  "synthetic": true,
+  "gender": "female",
+  "age": 53,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 158.7,
+   "weight_kg": 75.5,
+   "bmi": 30.0,
+   "waist_cm": 78.3,
+   "systolic_bp": 135,
+   "diastolic_bp": 81,
+   "resting_hr": 76
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 10
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 6
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 142,
+   "ppbg_2h_mgdl": 213,
+   "egfr_ml_min": 86,
+   "ldl_mgdl": 139,
+   "hdl_mgdl": 40,
+   "triglycerides_mgdl": 125,
+   "urine_acr_mg_g": 39,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-053",
+  "name": "Sunita Sharma",
+  "synthetic": true,
+  "gender": "female",
+  "age": 61,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 157.3,
+   "weight_kg": 73.3,
+   "bmi": 29.6,
+   "waist_cm": 82.8,
+   "systolic_bp": 123,
+   "diastolic_bp": 77,
+   "resting_hr": 77
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 2,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 151,
+   "ppbg_2h_mgdl": 207,
+   "egfr_ml_min": 84,
+   "ldl_mgdl": 113,
+   "hdl_mgdl": 49,
+   "triglycerides_mgdl": 147,
+   "urine_acr_mg_g": 45,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.5
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-054",
+  "name": "Arjun Patel",
+  "synthetic": true,
+  "gender": "male",
+  "age": 64,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 172.9,
+   "weight_kg": 84.1,
+   "bmi": 28.1,
+   "waist_cm": 83.5,
+   "systolic_bp": 135,
+   "diastolic_bp": 73,
+   "resting_hr": 70
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 4
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.4,
+   "fasting_glucose_mgdl": 116,
+   "ppbg_2h_mgdl": 205,
+   "egfr_ml_min": 81,
+   "ldl_mgdl": 94,
+   "hdl_mgdl": 42,
+   "triglycerides_mgdl": 162,
+   "urine_acr_mg_g": 52,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-055",
+  "name": "Krishna Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 64,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 172.8,
+   "weight_kg": 88.3,
+   "bmi": 29.6,
+   "waist_cm": 88.1,
+   "systolic_bp": 151,
+   "diastolic_bp": 84,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 6
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 144,
+   "ppbg_2h_mgdl": 189,
+   "egfr_ml_min": 74,
+   "ldl_mgdl": 118,
+   "hdl_mgdl": 42,
+   "triglycerides_mgdl": 193,
+   "urine_acr_mg_g": 99,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-056",
+  "name": "Simran Patel",
+  "synthetic": true,
+  "gender": "female",
+  "age": 44,
+  "address": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 155.4,
+   "weight_kg": 45.9,
+   "bmi": 19.0,
+   "waist_cm": 75.3,
+   "systolic_bp": 129,
+   "diastolic_bp": 72,
+   "resting_hr": 71
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 2
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 139,
+   "ppbg_2h_mgdl": 153,
+   "egfr_ml_min": 75,
+   "ldl_mgdl": 125,
+   "hdl_mgdl": 63,
+   "triglycerides_mgdl": 140,
+   "urine_acr_mg_g": 5,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-057",
+  "name": "Farhan Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 43,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 169.7,
+   "weight_kg": 70.8,
+   "bmi": 24.6,
+   "waist_cm": 81.6,
+   "systolic_bp": 145,
+   "diastolic_bp": 84,
+   "resting_hr": 80
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 14
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.5,
+   "fasting_glucose_mgdl": 171,
+   "ppbg_2h_mgdl": 247,
+   "egfr_ml_min": 74,
+   "ldl_mgdl": 117,
+   "hdl_mgdl": 48,
+   "triglycerides_mgdl": 177,
+   "urine_acr_mg_g": 31,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 9.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-058",
+  "name": "Ananya Verma",
+  "synthetic": true,
+  "gender": "female",
+  "age": 42,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 150.2,
+   "weight_kg": 60.3,
+   "bmi": 26.7,
+   "waist_cm": 85.8,
+   "systolic_bp": 134,
+   "diastolic_bp": 92,
+   "resting_hr": 75
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 15
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.9,
+   "fasting_glucose_mgdl": 147,
+   "ppbg_2h_mgdl": 192,
+   "egfr_ml_min": 95,
+   "ldl_mgdl": 163,
+   "hdl_mgdl": 50,
+   "triglycerides_mgdl": 97,
+   "urine_acr_mg_g": 10,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.5
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-059",
+  "name": "Rupali Patel",
+  "synthetic": true,
+  "gender": "female",
+  "age": 53,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 153.4,
+   "weight_kg": 69.8,
+   "bmi": 29.6,
+   "waist_cm": 91.2,
+   "systolic_bp": 127,
+   "diastolic_bp": 84,
+   "resting_hr": 71
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 6
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 136,
+   "ppbg_2h_mgdl": 201,
+   "egfr_ml_min": 78,
+   "ldl_mgdl": 132,
+   "hdl_mgdl": 35,
+   "triglycerides_mgdl": 167,
+   "urine_acr_mg_g": 7,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-060",
+  "name": "Diya Iyer",
+  "synthetic": true,
+  "gender": "female",
+  "age": 40,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 155.8,
+   "weight_kg": 73.7,
+   "bmi": 30.4,
+   "waist_cm": 78.3,
+   "systolic_bp": 116,
+   "diastolic_bp": 81,
+   "resting_hr": 66
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 155,
+   "ppbg_2h_mgdl": 218,
+   "egfr_ml_min": 123,
+   "ldl_mgdl": 166,
+   "hdl_mgdl": 43,
+   "triglycerides_mgdl": 187,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-061",
+  "name": "Ananya Khan",
+  "synthetic": true,
+  "gender": "female",
+  "age": 74,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 141.9,
+   "weight_kg": 52.0,
+   "bmi": 25.8,
+   "waist_cm": 78.3,
+   "systolic_bp": 146,
+   "diastolic_bp": 91,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 6
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.9,
+   "fasting_glucose_mgdl": 153,
+   "ppbg_2h_mgdl": 222,
+   "egfr_ml_min": 77,
+   "ldl_mgdl": 78,
+   "hdl_mgdl": 49,
+   "triglycerides_mgdl": 159,
+   "urine_acr_mg_g": 16,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 9.0
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-062",
+  "name": "Biswajit Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 53,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.1,
+   "weight_kg": 84.4,
+   "bmi": 31.7,
+   "waist_cm": 89.9,
+   "systolic_bp": 139,
+   "diastolic_bp": 79,
+   "resting_hr": 67
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 8
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.1,
+   "fasting_glucose_mgdl": 129,
+   "ppbg_2h_mgdl": 236,
+   "egfr_ml_min": 75,
+   "ldl_mgdl": 72,
+   "hdl_mgdl": 47,
+   "triglycerides_mgdl": 286,
+   "urine_acr_mg_g": 25,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-063",
+  "name": "Ramesh Dey",
+  "synthetic": true,
+  "gender": "male",
+  "age": 77,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 172.9,
+   "weight_kg": 91.3,
+   "bmi": 30.5,
+   "waist_cm": 88.3,
+   "systolic_bp": 118,
+   "diastolic_bp": 88,
+   "resting_hr": 69
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 211,
+   "egfr_ml_min": 82,
+   "ldl_mgdl": 146,
+   "hdl_mgdl": 31,
+   "triglycerides_mgdl": 145,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.1
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-064",
+  "name": "Diya Rao",
+  "synthetic": true,
+  "gender": "female",
+  "age": 57,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 141.2,
+   "weight_kg": 43.8,
+   "bmi": 21.9,
+   "waist_cm": 72.9,
+   "systolic_bp": 136,
+   "diastolic_bp": 87,
+   "resting_hr": 76
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 7
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 141,
+   "ppbg_2h_mgdl": 201,
+   "egfr_ml_min": 85,
+   "ldl_mgdl": 114,
+   "hdl_mgdl": 30,
+   "triglycerides_mgdl": 114,
+   "urine_acr_mg_g": 7,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 9.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.4
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.9
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-065",
+  "name": "Aditya Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 51,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 172.3,
+   "weight_kg": 79.9,
+   "bmi": 26.9,
+   "waist_cm": 87.4,
+   "systolic_bp": 145,
+   "diastolic_bp": 94,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.4,
+   "fasting_glucose_mgdl": 147,
+   "ppbg_2h_mgdl": 178,
+   "egfr_ml_min": 72,
+   "ldl_mgdl": 122,
+   "hdl_mgdl": 39,
+   "triglycerides_mgdl": 117,
+   "urine_acr_mg_g": 31,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.3
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-066",
+  "name": "Aadhya Banerjee",
+  "synthetic": true,
+  "gender": "female",
+  "age": 32,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 155.9,
+   "weight_kg": 68.6,
+   "bmi": 28.2,
+   "waist_cm": 79.4,
+   "systolic_bp": 158,
+   "diastolic_bp": 88,
+   "resting_hr": 77
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 8
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 8
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "5 mg OD",
+    "since_years": 3
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.7,
+   "fasting_glucose_mgdl": 149,
+   "ppbg_2h_mgdl": 221,
+   "egfr_ml_min": 122,
+   "ldl_mgdl": 166,
+   "hdl_mgdl": 36,
+   "triglycerides_mgdl": 242,
+   "urine_acr_mg_g": 41,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.8
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-067",
+  "name": "Ananya Chakraborty",
+  "synthetic": true,
+  "gender": "female",
+  "age": 44,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 164.8,
+   "weight_kg": 73.0,
+   "bmi": 26.9,
+   "waist_cm": 80.7,
+   "systolic_bp": 128,
+   "diastolic_bp": 71,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 20
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 9
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.6,
+   "fasting_glucose_mgdl": 168,
+   "ppbg_2h_mgdl": 262,
+   "egfr_ml_min": 97,
+   "ldl_mgdl": 77,
+   "hdl_mgdl": 25,
+   "triglycerides_mgdl": 196,
+   "urine_acr_mg_g": 20,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 9.1
+    },
+    {
+     "date": "2025-09-14",
+     "value": 9.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-068",
+  "name": "Aditya Pillai",
+  "synthetic": true,
+  "gender": "male",
+  "age": 56,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 171.2,
+   "weight_kg": 89.0,
+   "bmi": 30.4,
+   "waist_cm": 82.0,
+   "systolic_bp": 125,
+   "diastolic_bp": 75,
+   "resting_hr": 84
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 11
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 6.3,
+   "fasting_glucose_mgdl": 110,
+   "ppbg_2h_mgdl": 180,
+   "egfr_ml_min": 87,
+   "ldl_mgdl": 115,
+   "hdl_mgdl": 41,
+   "triglycerides_mgdl": 244,
+   "urine_acr_mg_g": 23,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.6
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-069",
+  "name": "Rohan Gupta",
+  "synthetic": true,
+  "gender": "male",
+  "age": 56,
+  "address": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 174.7,
+   "weight_kg": 58.0,
+   "bmi": 19.0,
+   "waist_cm": 71.4,
+   "systolic_bp": 128,
+   "diastolic_bp": 85,
+   "resting_hr": 82
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 2
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 2
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 6.6,
+   "fasting_glucose_mgdl": 108,
+   "ppbg_2h_mgdl": 165,
+   "egfr_ml_min": 89,
+   "ldl_mgdl": 184,
+   "hdl_mgdl": 40,
+   "triglycerides_mgdl": 187,
+   "urine_acr_mg_g": 47,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.2
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 6.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-070",
+  "name": "Venkat Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 43,
+  "address": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 166.1,
+   "weight_kg": 84.6,
+   "bmi": 30.7,
+   "waist_cm": 85.7,
+   "systolic_bp": 135,
+   "diastolic_bp": 86,
+   "resting_hr": 78
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": true,
+   "diet": "vegetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 7.0,
+   "fasting_glucose_mgdl": 135,
+   "ppbg_2h_mgdl": 194,
+   "egfr_ml_min": 90,
+   "ldl_mgdl": 77,
+   "hdl_mgdl": 28,
+   "triglycerides_mgdl": 105,
+   "urine_acr_mg_g": 5,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 6.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 6.9
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-071",
+  "name": "Mary Rao",
+  "synthetic": true,
+  "gender": "female",
+  "age": 67,
+  "address": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 144.9,
+   "weight_kg": 53.1,
+   "bmi": 25.3,
+   "waist_cm": 79.3,
+   "systolic_bp": 122,
+   "diastolic_bp": 77,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "40 mg OD",
+    "since_years": 4
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.5,
+   "fasting_glucose_mgdl": 113,
+   "ppbg_2h_mgdl": 170,
+   "egfr_ml_min": 67,
+   "ldl_mgdl": 80,
+   "hdl_mgdl": 49,
+   "triglycerides_mgdl": 171,
+   "urine_acr_mg_g": 19,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.6
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-072",
+  "name": "Rupali Menon",
+  "synthetic": true,
+  "gender": "female",
+  "age": 49,
+  "address": {
+   "city": "Kochi",
+   "state": "Kerala",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 156.9,
+   "weight_kg": 62.6,
+   "bmi": 25.4,
+   "waist_cm": 76.5,
+   "systolic_bp": 122,
+   "diastolic_bp": 87,
+   "resting_hr": 78
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   }
+  ],
+  "medications": [
+   {
+    "name": "Glimepiride",
+    "dose": "1 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.8,
+   "fasting_glucose_mgdl": 143,
+   "ppbg_2h_mgdl": 191,
+   "egfr_ml_min": 85,
+   "ldl_mgdl": 100,
+   "hdl_mgdl": 48,
+   "triglycerides_mgdl": 198,
+   "urine_acr_mg_g": 61,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.9
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-073",
+  "name": "Diya Verma",
+  "synthetic": true,
+  "gender": "female",
+  "age": 56,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 165.5,
+   "weight_kg": 69.6,
+   "bmi": 25.4,
+   "waist_cm": 78.1,
+   "systolic_bp": 118,
+   "diastolic_bp": 64,
+   "resting_hr": 88
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 0
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 4
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.3,
+   "fasting_glucose_mgdl": 145,
+   "ppbg_2h_mgdl": 185,
+   "egfr_ml_min": 88,
+   "ldl_mgdl": 92,
+   "hdl_mgdl": 39,
+   "triglycerides_mgdl": 102,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.6
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.3
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.5
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-074",
+  "name": "Bhavana Singh",
+  "synthetic": true,
+  "gender": "female",
+  "age": 38,
+  "address": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.7,
+   "weight_kg": 55.3,
+   "bmi": 20.7,
+   "waist_cm": 70.7,
+   "systolic_bp": 123,
+   "diastolic_bp": 75,
+   "resting_hr": 74
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 1
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.0,
+   "fasting_glucose_mgdl": 137,
+   "ppbg_2h_mgdl": 145,
+   "egfr_ml_min": 98,
+   "ldl_mgdl": 130,
+   "hdl_mgdl": 35,
+   "triglycerides_mgdl": 119,
+   "urine_acr_mg_g": 29,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.3
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.5
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.0
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-075",
+  "name": "Krishna Singh",
+  "synthetic": true,
+  "gender": "male",
+  "age": 49,
+  "address": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 169.8,
+   "weight_kg": 81.7,
+   "bmi": 28.4,
+   "waist_cm": 86.5,
+   "systolic_bp": 147,
+   "diastolic_bp": 84,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 4
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg OD",
+    "since_years": 1
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 3
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.5,
+   "fasting_glucose_mgdl": 131,
+   "ppbg_2h_mgdl": 183,
+   "egfr_ml_min": 97,
+   "ldl_mgdl": 130,
+   "hdl_mgdl": 47,
+   "triglycerides_mgdl": 203,
+   "urine_acr_mg_g": 17,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.0
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.4
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-076",
+  "name": "Farhan Naidu",
+  "synthetic": true,
+  "gender": "male",
+  "age": 44,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 149.7,
+   "weight_kg": 62.5,
+   "bmi": 27.9,
+   "waist_cm": 90.1,
+   "systolic_bp": 112,
+   "diastolic_bp": 82,
+   "resting_hr": 56
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 9
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 7.1,
+   "fasting_glucose_mgdl": 130,
+   "ppbg_2h_mgdl": 173,
+   "egfr_ml_min": 91,
+   "ldl_mgdl": 83,
+   "hdl_mgdl": 32,
+   "triglycerides_mgdl": 179,
+   "urine_acr_mg_g": 8,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.1
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-077",
+  "name": "Fatima Nair",
+  "synthetic": true,
+  "gender": "female",
+  "age": 50,
+  "address": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 156.3,
+   "weight_kg": 63.9,
+   "bmi": 26.2,
+   "waist_cm": 80.0,
+   "systolic_bp": 115,
+   "diastolic_bp": 71,
+   "resting_hr": 73
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 10
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 9
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "low"
+  },
+  "labs": {
+   "hba1c_pct": 8.0,
+   "fasting_glucose_mgdl": 150,
+   "ppbg_2h_mgdl": 201,
+   "egfr_ml_min": 83,
+   "ldl_mgdl": 119,
+   "hdl_mgdl": 39,
+   "triglycerides_mgdl": 209,
+   "urine_acr_mg_g": 16,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.8
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.2
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.1
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-078",
+  "name": "Ramesh Sharma",
+  "synthetic": true,
+  "gender": "male",
+  "age": 37,
+  "address": {
+   "city": "Silchar",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 168.7,
+   "weight_kg": 69.1,
+   "bmi": 24.3,
+   "waist_cm": 80.1,
+   "systolic_bp": 138,
+   "diastolic_bp": 101,
+   "resting_hr": 72
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 7
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "1000 mg BD",
+    "since_years": 2
+   },
+   {
+    "name": "Telmisartan",
+    "dose": "40 mg OD",
+    "since_years": 2
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 0
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "vegetarian",
+   "self_reported_activity": "high"
+  },
+  "labs": {
+   "hba1c_pct": 7.2,
+   "fasting_glucose_mgdl": 137,
+   "ppbg_2h_mgdl": 177,
+   "egfr_ml_min": 93,
+   "ldl_mgdl": 104,
+   "hdl_mgdl": 52,
+   "triglycerides_mgdl": 197,
+   "urine_acr_mg_g": 31,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.4
+    },
+    {
+     "date": "2025-09-14",
+     "value": 7.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-079",
+  "name": "Riya Joshi",
+  "synthetic": true,
+  "gender": "female",
+  "age": 61,
+  "address": {
+   "city": "Guwahati",
+   "state": "Assam",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 155.9,
+   "weight_kg": 60.9,
+   "bmi": 25.0,
+   "waist_cm": 83.5,
+   "systolic_bp": 139,
+   "diastolic_bp": 79,
+   "resting_hr": 68
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 1
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 0,
+   "family_history_t2d": false
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "eggetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.2,
+   "fasting_glucose_mgdl": 158,
+   "ppbg_2h_mgdl": 224,
+   "egfr_ml_min": 88,
+   "ldl_mgdl": 111,
+   "hdl_mgdl": 44,
+   "triglycerides_mgdl": 178,
+   "urine_acr_mg_g": 15,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 8.5
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.8
+    },
+    {
+     "date": "2026-03-21",
+     "value": 8.2
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ },
+ {
+  "resourceType": "Patient",
+  "id": "GT-080",
+  "name": "Rohan Patel",
+  "synthetic": true,
+  "gender": "male",
+  "age": 49,
+  "address": {
+   "city": "Kochi",
+   "state": "Kerala",
+   "country": "IN"
+  },
+  "vitals": {
+   "height_cm": 163.5,
+   "weight_kg": 68.1,
+   "bmi": 25.5,
+   "waist_cm": 82.9,
+   "systolic_bp": 134,
+   "diastolic_bp": 82,
+   "resting_hr": 81
+  },
+  "conditions": [
+   {
+    "code": "E11",
+    "system": "ICD-10",
+    "display": "Type 2 diabetes mellitus",
+    "onset_years_ago": 5
+   },
+   {
+    "code": "I10",
+    "system": "ICD-10",
+    "display": "Essential hypertension"
+   },
+   {
+    "code": "E78.5",
+    "system": "ICD-10",
+    "display": "Dyslipidaemia"
+   }
+  ],
+  "medications": [
+   {
+    "name": "Metformin",
+    "dose": "500 mg BD",
+    "since_years": 1
+   },
+   {
+    "name": "Glimepiride",
+    "dose": "2 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Amlodipine",
+    "dose": "5 mg OD",
+    "since_years": 0
+   },
+   {
+    "name": "Atorvastatin",
+    "dose": "10 mg OD",
+    "since_years": 5
+   }
+  ],
+  "genetics": {
+   "TCF7L2_rs7903146_risk_alleles": 1,
+   "family_history_t2d": true
+  },
+  "lifestyle": {
+   "smoker": false,
+   "diet": "non-vegetarian",
+   "self_reported_activity": "moderate"
+  },
+  "labs": {
+   "hba1c_pct": 8.1,
+   "fasting_glucose_mgdl": 145,
+   "ppbg_2h_mgdl": 199,
+   "egfr_ml_min": 72,
+   "ldl_mgdl": 147,
+   "hdl_mgdl": 35,
+   "triglycerides_mgdl": 159,
+   "urine_acr_mg_g": 12,
+   "hba1c_history": [
+    {
+     "date": "2025-03-10",
+     "value": 7.7
+    },
+    {
+     "date": "2025-09-14",
+     "value": 8.7
+    },
+    {
+     "date": "2026-03-21",
+     "value": 7.7
+    }
+   ],
+   "collected_on": "2026-08-25"
+  }
+ }
+]

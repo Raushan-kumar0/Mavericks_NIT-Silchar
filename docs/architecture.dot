@@ -1,0 +1,40 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=20, labelloc=t, label="GlucoTwin — Digital Twin Architecture (Type 2 Diabetes, 2-hour glucose-spike prediction)\n ", pad=0.4, nodesep=0.35, ranksep=0.7, bgcolor="white"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#94a3b8", fillcolor="#f8fafc", margin="0.18,0.10"];
+  edge [fontname="Helvetica", fontsize=10, color="#475569"];
+
+  subgraph cluster_data { label="1. Data sources (synthetic, DPDP/HIPAA-safe)"; style="rounded,filled"; fillcolor="#eef2ff"; color="#c7d2fe"; fontsize=14;
+    ehr [label="STATIC / HISTORICAL\nSynthetic EHR (FHIR-style JSON)\n• demographics, BMI, BP\n• ICD-10 diagnoses, medications\n• labs: HbA1c, FPG, lipids, eGFR\n• genetics: TCF7L2 rs7903146\n• HbA1c history", fillcolor="#ffffff"];
+    wear [label="DYNAMIC / REAL-TIME (5-min)\nSimulated wearable + CGM\n• CGM glucose\n• heart rate, HRV (RMSSD)\n• steps, sleep stages\n• meal log (food app)", fillcolor="#ffffff"];
+    gen [label="data-generator/generate.py\nphysiology-based simulator\n80 patients × 14 days\n(322k sensor rows)", fillcolor="#e0e7ff"];
+    gen -> ehr; gen -> wear;
+  }
+
+  subgraph cluster_be { label="2. Spring Boot backend (Java 17)"; style="rounded,filled"; fillcolor="#ecfdf5"; color="#a7f3d0"; fontsize=14;
+    store [label="DataStore\nloads EHR + time series\n5-min grid index"];
+    clock [label="SimulationClock\nreplays sensors \"live\"\n(no peeking into future)"];
+    twins [label="TwinService\n@Scheduled tick: fuse EHR +\nlast 6 h window + last night sleep\n→ call ML for every patient"];
+    alerts [label="AlertService\nP(spike) ≥ threshold → alert\n2-h cooldown, doctor ack"];
+    api [label="REST API + SSE stream\n/api/patients, /timeline,\n/prediction, /whatif, /twin,\n/alerts, /clock, /stream"];
+    store -> twins; clock -> twins; twins -> alerts; twins -> api; alerts -> api;
+  }
+
+  subgraph cluster_ml { label="3. Python ML + Digital Twin service (FastAPI)"; style="rounded,filled"; fillcolor="#fff7ed"; color="#fed7aa"; fontsize=14;
+    feat [label="Feature fusion (features.py)\n54 features: CGM trend/lags,\nactivity, HR/HRV, sleep, meal log,\ntime of day + 18 EHR features"];
+    clf [label="LightGBM classifier\nP(glucose > 180 within 2 h)\n+ SHAP-style drivers"];
+    reg [label="LightGBM quantile forecasters\nglucose +30/60/90/120 min\nmedian + 80% band"];
+    phys [label="Mechanistic twin (physiology.py)\ngut absorption + insulin sensitivity\n+ circadian + sleep + exercise"];
+    cal [label="Calibration (digital_twin.py)\nEHR prior → MAP fit on the\npatient's own post-meal CGM"];
+    wif [label="What-if simulator\nless rice / walk / earlier dinner /\nmore sleep → 24-h outcome"];
+    feat -> clf; feat -> reg; phys -> cal -> wif;
+  }
+
+  ui [label="4. React doctor dashboard\n• risk-sorted patient list\n• twin view: EHR, risk, drivers\n• CGM chart + forecast band\n• what-if simulator\n• alert inbox + model metrics", fillcolor="#f0fdfa", color="#0f766e", penwidth=2];
+  doc [label="Doctor / care team", shape=ellipse, fillcolor="#ffffff"];
+
+  ehr -> store [label="JSON"]; wear -> store [label="CSV"];
+  twins -> feat [label="POST /predict"];
+  api -> cal [label="POST /twin/simulate", style=dashed];
+  api -> ui [label="REST + Server-Sent Events", penwidth=2, color="#0f766e"];
+  ui -> doc [dir=both];
+}

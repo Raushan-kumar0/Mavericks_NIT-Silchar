@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: glucotwin-backend
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    default-property-inclusion: non_null
+
+glucotwin:
+  # folder with ehr_patients.json, wearable_timeseries.csv, sleep_summary.csv
+  data-dir: ${GLUCOTWIN_DATA_DIR:../data}
+  ml-service-url: ${ML_SERVICE_URL:http://localhost:8000}
+  # the "live" replay clock: starts this many days into the recorded data
+  start-day-offset: 7
+  start-hour: 6
+  # every tick advances simulated time by this many minutes
+  minutes-per-tick: 5
+  tick-millis: 3000
+  # how much history is sent to the ML service
+  window-hours: 6
+  twin-history-days: 5
+  frontend-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

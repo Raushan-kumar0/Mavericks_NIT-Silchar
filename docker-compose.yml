@@ -1,0 +1,17 @@
+services:
+  ml-service:
+    build: { context: ., dockerfile: ml-service/Dockerfile }
+    ports: ["8000:8000"]
+  backend:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    environment:
+      ML_SERVICE_URL: http://ml-service:8000
+      GLUCOTWIN_DATA_DIR: /data
+    ports: ["8080:8080"]
+    depends_on: [ml-service]
+  frontend:
+    build: { context: ., dockerfile: frontend/Dockerfile }
+    environment:
+      VITE_API_URL: http://localhost:8080
+    ports: ["5173:5173"]
+    depends_on: [backend]
