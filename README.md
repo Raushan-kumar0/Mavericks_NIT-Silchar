@@ -151,8 +151,7 @@ The calibrated twin then powers the **what-if simulator**.
 
 ## 6. Demo video (15–20 minutes, unlisted YouTube)
 
-**▶ Video link (unlisted YouTube):** `[PASTE UNLISTED YOUTUBE LINK HERE]`
-
+**▶ Video link (unlisted YouTube):** https://youtu.be/CAtEV37w5I0
 **Access:** this repository, the video and all linked files are public and need no extra permissions.
 
 A recording script with timings (about 19 minutes) is in [`docs/video_script.md`](docs/video_script.md).
